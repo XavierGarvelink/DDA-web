@@ -1,3 +1,8 @@
+import service1 from "/src/images/werk8.png";
+import service2 from "/src/images/werk6.png";
+import service3 from "/src/images/werk5.png";
+import service4 from "/src/images/werk2.png";
+
 type Service = {
   title: string;
   description: string;
@@ -9,25 +14,25 @@ const services: Service[] = [
     title: "Woningen verkoopklaar maken",
     description:
       "Ons team staat klaar om woningen te ontruimen en/of schoon op te leveren.",
-    image: "/images/service1.jpg",
+    image: service1,
   },
   {
     title: "Projecten opleveren",
     description:
       "Schoonmaken en opleveren van nieuwbouw en renovaties.",
-    image: "/images/service2.jpg",
+    image: service2,
   },
   {
     title: "Verhuizen",
     description:
       "Wij helpen u graag bij het verhuizen van uw inboedel.",
-    image: "/images/service3.jpg",
+    image: service3,
   },
   {
     title: "Extra's",
     description:
       "Van ramen wassen tot dakgoot ledigen – niets is te gek!",
-    image: "/images/service4.jpg",
+    image: service4,
   },
 ];
 
